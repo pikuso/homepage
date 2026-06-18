@@ -2,28 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>QA Engineer</title>
+  <title>Polina | QA Engineer</title>
   <meta
     name="description"
     content="QA Engineer focused on Web, Mobile, API Testing, API Automation and AI-assisted QA workflows."
   />
 
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="./styles.css?v=4" />
 </head>
 
 <body>
-  <div class="page-bg"></div>
+  <div class="noise"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
 
-  <header class="site-header">
-    <div class="container nav">
-      <a class="logo" href="#top" aria-label="Go to top">
-        <span class="logo__dot"></span>
-        Polina Po
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#top" class="logo">
+        <span class="logo-mark">P</span>
+        <span>Polina</span>
       </a>
 
-      <nav class="nav__links" aria-label="Main navigation">
+      <nav class="nav">
+        <a href="#focus">Focus</a>
         <a href="#skills">Skills</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
@@ -33,33 +37,33 @@
   </header>
 
   <main id="top">
-    <section class="hero section">
-      <div class="container hero__grid">
-        <div class="hero__content">
-          <p class="eyebrow">QA Engineer</p>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow">QA Engineer · Web · Mobile · API</span>
 
           <h1>
-            Web, Mobile & API QA
-            <span>with API Automation focus.</span>
+            I test product quality
+            <span>from user flows to API contracts.</span>
           </h1>
 
-          <p class="hero__summary">
-            QA Engineer with commercial experience testing a social networking product across web,
-            mobile and API layers. I review requirements, design test coverage, validate Swagger/API
-            contracts, investigate defects and contribute to API automation using Java, TestNG,
-            Maven, RestAssured and Allure Reports.
+          <p class="hero-description">
+            QA Engineer with commercial experience in web, mobile and API testing.
+            I review requirements, validate Swagger/API contracts, investigate defects
+            and contribute to API automation using Java, TestNG, Maven, RestAssured
+            and Allure Reports.
           </p>
 
-          <div class="hero__actions">
-            <a class="button button--primary" href="https://www.linkedin.com/in/polinapoo/" target="_blank" rel="noreferrer">
-              LinkedIn
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://www.linkedin.com/in/polinapoo/" target="_blank" rel="noreferrer">
+              View LinkedIn
             </a>
-            <a class="button button--secondary" href="https://github.com/pikuso" target="_blank" rel="noreferrer">
-              GitHub
+            <a class="btn btn-secondary" href="https://github.com/pikuso" target="_blank" rel="noreferrer">
+              View GitHub
             </a>
           </div>
 
-          <div class="hero__tags" aria-label="Core QA focus">
+          <div class="quick-stack">
             <span>Manual QA</span>
             <span>API Testing</span>
             <span>API Automation</span>
@@ -67,29 +71,32 @@
           </div>
         </div>
 
-        <aside class="profile-card" aria-label="Profile summary card">
-          <div class="profile-card__glow"></div>
+        <aside class="hero-card">
+          <div class="hero-card-top">
+            <img src="assets/avatar.png" alt="Polina profile photo" />
 
-          <img class="profile-card__avatar" src="assets/avatar.png" alt="Polina Ponezha avatar" />
+            <div class="status-card">
+              <span class="status-dot"></span>
+              Open to QA opportunities
+            </div>
+          </div>
 
-          <div class="profile-card__body">
-            <p class="profile-card__label">Current focus</p>
-            <h2>Quality across product, API and automation layers</h2>
+          <div class="hero-card-body">
+            <p class="card-label">Current positioning</p>
+            <h2>Manual QA with API automation growth</h2>
 
-            <div class="metric-list">
-              <div class="metric">
-                <span class="metric__value">200+</span>
-                <span class="metric__label">test cases created</span>
+            <div class="stats-grid">
+              <div>
+                <strong>200+</strong>
+                <span>test cases created</span>
               </div>
-
-              <div class="metric">
-                <span class="metric__value">Web · iOS · Android</span>
-                <span class="metric__label">platform coverage</span>
+              <div>
+                <strong>Web · iOS · Android</strong>
+                <span>platform coverage</span>
               </div>
-
-              <div class="metric">
-                <span class="metric__value">Java · TestNG · Allure</span>
-                <span class="metric__label">automation stack</span>
+              <div>
+                <strong>Java · TestNG · Allure</strong>
+                <span>automation stack</span>
               </div>
             </div>
           </div>
@@ -97,61 +104,68 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="focus">
       <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Positioning</p>
-          <h2>What I bring to a QA team</h2>
+        <div class="section-title">
+          <span class="eyebrow">Focus</span>
+          <h2>What I can bring to a QA team</h2>
         </div>
 
         <div class="focus-grid">
-          <article class="focus-card">
-            <div class="focus-card__icon">01</div>
+          <article class="focus-card large">
+            <span class="card-number">01</span>
             <h3>Requirement-driven testing</h3>
             <p>
-              I review requirements, Jira tasks, Swagger documentation and designs to catch gaps,
-              unclear behavior and missing edge cases before they become expensive bugs.
+              I analyze requirements, Jira tasks, Swagger documentation and Figma designs
+              to find unclear behavior, missing edge cases and potential test gaps early.
             </p>
           </article>
 
           <article class="focus-card">
-            <div class="focus-card__icon">02</div>
+            <span class="card-number">02</span>
             <h3>API validation</h3>
             <p>
-              I test REST API behavior, status codes, authentication, headers, error responses,
-              JSON structure and schema consistency against Swagger/OpenAPI contracts.
+              I validate REST API behavior, status codes, authentication, headers,
+              error responses, JSON structure and schema consistency.
             </p>
           </article>
 
           <article class="focus-card">
-            <div class="focus-card__icon">03</div>
+            <span class="card-number">03</span>
             <h3>Automation mindset</h3>
             <p>
-              I contribute to API automation with Java, TestNG, Maven, RestAssured and Allure,
-              and I am expanding UI automation practice with Selenium and Playwright concepts.
+              I contribute to API automation with Java, TestNG, Maven, RestAssured
+              and Allure Reports.
             </p>
           </article>
 
-          <article class="focus-card">
-            <div class="focus-card__icon">04</div>
-            <h3>AI-assisted QA</h3>
+          <article class="focus-card wide">
+            <span class="card-number">04</span>
+            <h3>AI-assisted QA workflow</h3>
             <p>
-              I use AI as a productivity layer for test ideas, checklists, bug report polishing,
-              automation drafts and edge-case expansion while keeping QA review and validation human.
+              I use AI tools to speed up checklist drafting, test ideas, bug report wording,
+              edge-case generation and automation scenario preparation — while keeping final
+              QA validation human.
             </p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section section--compact" id="skills">
+    <section class="section" id="skills">
       <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Skills</p>
-          <h2>QA toolbox</h2>
+        <div class="section-title row-title">
+          <div>
+            <span class="eyebrow">Skills</span>
+            <h2>QA toolbox</h2>
+          </div>
+          <p>
+            A practical stack for manual testing, API validation, documentation
+            and automation growth.
+          </p>
         </div>
 
-        <div class="skills-grid">
+        <div class="skills-layout">
           <article class="skill-card">
             <h3>Core QA</h3>
             <div class="chips">
@@ -161,25 +175,25 @@
               <span>Exploratory Testing</span>
               <span>Negative Testing</span>
               <span>UI Testing</span>
-              <span>Cross-Browser Testing</span>
               <span>Responsive Testing</span>
+              <span>Cross-Browser Testing</span>
               <span>Basic Accessibility Checks</span>
             </div>
           </article>
 
-          <article class="skill-card">
+          <article class="skill-card highlight">
             <h3>API Testing</h3>
             <div class="chips">
               <span>REST API</span>
               <span>Swagger / OpenAPI</span>
               <span>Postman</span>
               <span>JSON Validation</span>
-              <span>HTTP Status Codes</span>
+              <span>Status Codes</span>
               <span>Headers</span>
               <span>Auth Tokens</span>
               <span>Error Response Validation</span>
-              <span>API Contract Checks</span>
               <span>Schema Validation</span>
+              <span>API Contract Checks</span>
             </div>
           </article>
 
@@ -191,8 +205,8 @@
               <span>Maven</span>
               <span>RestAssured</span>
               <span>Allure Reports</span>
-              <span>Selenium WebDriver Basics</span>
               <span>JUnit</span>
+              <span>Selenium Basics</span>
               <span>Page Object Model Basics</span>
               <span>Git / GitLab</span>
             </div>
@@ -201,6 +215,7 @@
           <article class="skill-card">
             <h3>Web & Mobile</h3>
             <div class="chips">
+              <span>Web Testing</span>
               <span>iOS</span>
               <span>Android</span>
               <span>TestFlight</span>
@@ -213,8 +228,8 @@
             </div>
           </article>
 
-          <article class="skill-card">
-            <h3>Documentation</h3>
+          <article class="skill-card wide-skill">
+            <h3>Documentation & AI-assisted QA</h3>
             <div class="chips">
               <span>Requirement Review</span>
               <span>Test Cases</span>
@@ -225,18 +240,10 @@
               <span>Severity / Priority</span>
               <span>Defect Lifecycle</span>
               <span>Test Run Reporting</span>
-            </div>
-          </article>
-
-          <article class="skill-card">
-            <h3>AI-assisted QA</h3>
-            <div class="chips">
-              <span>Test Case Generation</span>
+              <span>AI-assisted Test Ideas</span>
               <span>Checklist Drafting</span>
               <span>Bug Report Polishing</span>
-              <span>Test Data Ideas</span>
               <span>Playwright Scenario Drafting</span>
-              <span>Automation Code Review Support</span>
             </div>
           </article>
         </div>
@@ -244,22 +251,22 @@
     </section>
 
     <section class="section" id="experience">
-      <div class="container layout">
+      <div class="container experience-grid">
         <div>
-          <div class="section-heading">
-            <p class="eyebrow">Experience</p>
-            <h2>Commercial and practical QA work</h2>
+          <div class="section-title">
+            <span class="eyebrow">Experience</span>
+            <h2>Commercial QA experience</h2>
           </div>
 
           <div class="timeline">
             <article class="timeline-card">
-              <div class="timeline-card__meta">
+              <div class="timeline-meta">
                 <span>Jun 2025 — Present</span>
                 <span>Junior QA Engineer</span>
               </div>
 
               <h3>NDA Product Company</h3>
-              <p class="timeline-card__subtitle">Social Networking Platform</p>
+              <p class="role">Social Networking Platform</p>
 
               <ul>
                 <li>Reviewed requirements, Jira tasks, Swagger documentation and Figma designs to identify unclear behavior, missing edge cases and test gaps.</li>
@@ -269,88 +276,72 @@
                 <li>Validated REST API behavior using Postman and Swagger, including status codes, auth behavior, headers, request/response structure, error codes and JSON schema consistency.</li>
                 <li>Contributed to API test automation using Java, TestNG, Maven, RestAssured and Allure Reports.</li>
                 <li>Investigated issues using Chrome DevTools, BrowserStack, TestFlight and Charles Proxy.</li>
-                <li>Reported defects with clear steps, actual/expected results, environment details, screenshots/videos, severity and priority.</li>
               </ul>
             </article>
 
-            <article class="timeline-card">
-              <div class="timeline-card__meta">
+            <article class="timeline-card compact">
+              <div class="timeline-meta">
                 <span>Oct 2024 — May 2025</span>
                 <span>QA Trainee</span>
               </div>
 
               <h3>QA Mentorship Program</h3>
-              <p class="timeline-card__subtitle">Practical QA Training</p>
+              <p class="role">Practical QA Training</p>
 
               <ul>
-                <li>Completed practical QA mentorship focused on test design, bug reporting, smoke and regression testing.</li>
-                <li>Practiced Postman API checks, SQL basics, test documentation and defect lifecycle.</li>
-              </ul>
-            </article>
-
-            <article class="timeline-card">
-              <div class="timeline-card__meta">
-                <span>Mar 2024 — Aug 2024</span>
-                <span>Software Engineer Support</span>
-              </div>
-
-              <h3>KROK University</h3>
-              <p class="timeline-card__subtitle">University Pass Card System Prototype</p>
-
-              <ul>
-                <li>Supported development and testing of login/authentication flows, basic API behavior and defect fixes.</li>
+                <li>Practiced test design, bug reporting, smoke/regression testing, API checks and SQL basics.</li>
               </ul>
             </article>
           </div>
         </div>
 
         <aside class="side-panel">
-          <div class="side-card">
+          <article class="side-card">
             <h3>Education</h3>
-            <p class="side-card__date">Sep 2022 — Jun 2026</p>
-            <p class="side-card__title">Professional Junior Bachelor, Software Engineering</p>
+            <p class="side-date">Sep 2022 — Jun 2026</p>
+            <p class="side-title">Professional Junior Bachelor, Software Engineering</p>
             <p>College of Economics, Law and Information Technologies “KROK”</p>
-          </div>
+          </article>
 
-          <div class="side-card">
+          <article class="side-card">
             <h3>Training</h3>
             <p>EPAM Pre-Junior Program</p>
             <p>EPAM IT Fundamentals</p>
-          </div>
+          </article>
 
-          <div class="side-card">
+          <article class="side-card">
             <h3>Languages</h3>
             <p>Ukrainian — Native</p>
             <p>Russian — Fluent</p>
             <p>English — Intermediate / B1</p>
-          </div>
+          </article>
         </aside>
       </div>
     </section>
 
-    <section class="section section--compact" id="projects">
+    <section class="section" id="projects">
       <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Projects</p>
+        <div class="section-title">
+          <span class="eyebrow">Projects</span>
           <h2>Relevant QA projects</h2>
         </div>
 
         <div class="projects-grid">
           <article class="project-card">
-            <div class="project-card__top">
-              <span class="project-card__tag">Automation</span>
-              <span class="project-card__number">01</span>
+            <div class="project-top">
+              <span>Automation</span>
+              <strong>01</strong>
             </div>
 
             <h3>ParaBank Test Automation</h3>
             <p>
-              UI automation project for a banking demo application. Covered core flows such as
-              login, account opening and money transfer using Page Object Model.
+              UI automation project for a banking demo application. Covered login,
+              account opening and money transfer flows using Page Object Model.
             </p>
 
-            <div class="project-card__stack">
+            <div class="project-stack">
               <span>Java</span>
-              <span>Selenium WebDriver</span>
+              <span>Selenium</span>
               <span>Maven</span>
               <span>JUnit</span>
               <span>POM</span>
@@ -358,19 +349,19 @@
             </div>
           </article>
 
-          <article class="project-card">
-            <div class="project-card__top">
-              <span class="project-card__tag">API QA</span>
-              <span class="project-card__number">02</span>
+          <article class="project-card accent-card">
+            <div class="project-top">
+              <span>API QA</span>
+              <strong>02</strong>
             </div>
 
             <h3>API Testing & Automation</h3>
             <p>
-              Practical API validation and automation work focused on REST endpoints, Swagger
-              contracts, auth behavior, error responses, schema consistency and report generation.
+              REST API validation and automation contribution focused on Swagger contracts,
+              auth behavior, error responses, schema consistency and report generation.
             </p>
 
-            <div class="project-card__stack">
+            <div class="project-stack">
               <span>Java</span>
               <span>TestNG</span>
               <span>Maven</span>
@@ -381,22 +372,22 @@
           </article>
 
           <article class="project-card">
-            <div class="project-card__top">
-              <span class="project-card__tag">AI-assisted QA</span>
-              <span class="project-card__number">03</span>
+            <div class="project-top">
+              <span>AI-assisted QA</span>
+              <strong>03</strong>
             </div>
 
-            <h3>AI-assisted Testing Workflow</h3>
+            <h3>AI-supported QA Workflow</h3>
             <p>
-              Exploration of AI-supported QA workflows: checklist generation, edge-case expansion,
-              bug report polishing, Playwright scenario drafting and automation code review support.
+              Exploration of AI-supported QA workflows: checklist generation,
+              edge-case expansion, bug report polishing and automation scenario drafting.
             </p>
 
-            <div class="project-card__stack">
+            <div class="project-stack">
               <span>AI tools</span>
-              <span>Playwright concepts</span>
-              <span>Test design</span>
-              <span>Automation drafts</span>
+              <span>Test Design</span>
+              <span>Playwright Concepts</span>
+              <span>Automation Drafts</span>
             </div>
           </article>
         </div>
@@ -404,21 +395,21 @@
     </section>
 
     <section class="section contact-section" id="contact">
-      <div class="container contact-card">
+      <div class="container contact-box">
         <div>
-          <p class="eyebrow">Contact</p>
+          <span class="eyebrow">Contact</span>
           <h2>Open to QA opportunities</h2>
           <p>
             Interested in Manual QA, API QA, Junior QA Automation and AI-assisted QA workflows.
           </p>
         </div>
 
-        <div class="contact-card__actions">
-          <a class="button button--primary" href="https://www.linkedin.com/in/polinapoo/" target="_blank" rel="noreferrer">
-            Contact on LinkedIn
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="https://www.linkedin.com/in/polinapoo/" target="_blank" rel="noreferrer">
+            LinkedIn
           </a>
-          <a class="button button--secondary" href="https://github.com/pikuso" target="_blank" rel="noreferrer">
-            View GitHub
+          <a class="btn btn-secondary" href="https://github.com/pikuso" target="_blank" rel="noreferrer">
+            GitHub
           </a>
         </div>
       </div>
