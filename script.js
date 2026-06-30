@@ -1,5 +1,6 @@
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelectorAll('.nav a');
+const signalCard = document.querySelector('.signal-card');
 
 if (navToggle) {
   navToggle.addEventListener('click', () => {
@@ -14,6 +15,17 @@ navLinks.forEach((link) => {
     navToggle?.setAttribute('aria-expanded', 'false');
   });
 });
+
+if (signalCard) {
+  signalCard.addEventListener('pointermove', (event) => {
+    const rect = signalCard.getBoundingClientRect();
+    const x = ((event.clientX - rect.left) / rect.width) * 100;
+    const y = ((event.clientY - rect.top) / rect.height) * 100;
+
+    signalCard.style.setProperty('--mx', `${x}%`);
+    signalCard.style.setProperty('--my', `${y}%`);
+  });
+}
 
 const animatedItems = document.querySelectorAll('[data-animate]');
 
